@@ -3,20 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>/**</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (weak, nonatomic) &lt;#type#&gt; &lt;#name#&gt;;
-</string>
+	<string>
+ &lt;#method description#&gt;
+ @param &lt;#param#&gt;
+ @return &lt;#returns#&gt;
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>12E48AD0-75A7-44BB-B971-A87F50A5CF67</string>
+	<string>48DE1D79-02B2-47AC-9046-25DD6AF3ED6D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MT Weak property</string>
+	<string>MT Comment</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
