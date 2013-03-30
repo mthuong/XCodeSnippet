@@ -10,7 +10,6 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - === UITableView Datasource ===
-#pragma mark
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return &lt;#Number of section#&gt;;
@@ -35,7 +34,6 @@
 }
 
 #pragma mark - === UITableView Delegate methods ===
-#pragma mark
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
