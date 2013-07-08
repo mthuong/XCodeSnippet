@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>singletonarc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (&lt;#Your Class Name#&gt; *)shared
+{
+    __strong static &lt;#Your Class Name#&gt; *_sharedLocalSystem = nil;
+    
+    static dispatch_once_t pred = 0;
+    dispatch_once(&amp;pred, ^{
+        _sharedLocalSystem = [[self alloc] initPrivate];
+    });
+    return _sharedLocalSystem;
+    
+}
+
+- (id) initPrivate
+{
+    self = [super init];
+    if(self)
+    {
+        // Init your data here
+    }
+    return self;
+}
+
+- (id)init
+{
+    @throw @"Please use the singleton.";
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>31925C9F-497B-4244-99D7-D7ED51DA6F3D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MT ARC singleton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
