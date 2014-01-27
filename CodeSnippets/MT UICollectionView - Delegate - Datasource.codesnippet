@@ -11,6 +11,10 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - === UICollectionViewDataSource ===
 
+-(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+return &lt;#numberOfSection#&gt;;
+}
+    
 - (NSInteger)collectionView:(UICollectionView *)collectionView
      numberOfItemsInSection:(NSInteger)section
 {
