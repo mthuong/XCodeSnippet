@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// The delegate will be notified
-@property (nonatomic) NSObject&lt;&lt;#DelegateName#&gt;&gt; *delegate;</string>
+@property (nonatomic, weak) NSObject&lt;&lt;#DelegateName#&gt;&gt; *delegate;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E6798E6C-E4B7-4E16-A95A-332C8668B62D</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -9,7 +9,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>FOUNDATION_EXPORT NSString * const &lt;#Your const name#&gt;;</string>
+	<string>FOUNDATION_EXPORT &lt;#Constant type#&gt; const &lt;#Your const name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>248B237B-0F1D-46F9-9356-07A521BD4FD2</string>
 	<key>IDECodeSnippetLanguage</key>
