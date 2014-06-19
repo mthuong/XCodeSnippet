@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@delegate</string>
+	<string>mtdelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
@@ -14,7 +14,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E6798E6C-E4B7-4E16-A95A-332C8668B62D</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>MT Delegate Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
